@@ -10,7 +10,13 @@
     </div>
 </main>
 <style>
-    .rotate {
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
     }
 
     @keyframes rotation {
@@ -25,6 +31,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+        animation: fadeIn ease 3s
     }
     button {
         font-size: 20px; 

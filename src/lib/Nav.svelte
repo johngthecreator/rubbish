@@ -3,7 +3,7 @@
 </script>
 
 <nav>
-    <a href="/"><h1>depo</h1></a>
+    <a id="homeLink" href="/"><h1>depo</h1></a>
     <details role="list" dir="rtl">
         <summary id="nav" aria-haspopup="listbox">MENU</summary>
         <ul role="listbox">
@@ -25,6 +25,11 @@
 
     nav {
         padding: 15px;
+    }
+
+    a#homeLink {
+        text-decoration: none;
+        color: white;
     }
 
 
