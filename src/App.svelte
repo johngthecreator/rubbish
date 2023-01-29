@@ -1,5 +1,6 @@
 <script>
   import { Router, Link, Route } from "svelte-routing";
+  import "@picocss/pico";
   import Home from "./routes/Home.svelte";
   import Upload from "./routes/Upload.svelte";
   import Locker from "./routes/Locker.svelte";
